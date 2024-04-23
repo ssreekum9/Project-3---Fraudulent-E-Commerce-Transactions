@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraudulent Transactions</title>
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Include CSS for map container -->
+    <style>
+        #map-container {
+            width: 800px;
+            height: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Render the map visualization -->
+    <div id="map-container">{{ map_html | safe }}</div>
+    <div id="map-container">{{plot_div | safe }}</div>
+    <div id="map-container">{{spring_plot_div | safe }}</div>
+    <div id="map-container">{{winter_plot_div | safe }}</div>
+</body>
+</html>
