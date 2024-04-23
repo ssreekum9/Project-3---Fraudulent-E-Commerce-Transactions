@@ -8,3 +8,4 @@ Our project utilizes synethetic data from Kaggle. However, data collected by cus
 .....
 ## Data Source
 The data used in this project was sourced from Kaggle.com and is purely synthetic.
+Reference to the dataset: https://www.kaggle.com/datasets/shriyashjagtap/fraudulent-e-commerce-transactions
